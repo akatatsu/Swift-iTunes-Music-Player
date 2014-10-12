@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5042C70719EA3256000CD0AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042C70619EA3256000CD0AE /* AppDelegate.swift */; };
-		5042C70919EA3256000CD0AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042C70819EA3256000CD0AE /* ViewController.swift */; };
+		5042C70919EA3256000CD0AE /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042C70819EA3256000CD0AE /* SearchResultsViewController.swift */; };
 		5042C70C19EA3256000CD0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5042C70A19EA3256000CD0AE /* Main.storyboard */; };
 		5042C70E19EA3256000CD0AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5042C70D19EA3256000CD0AE /* Images.xcassets */; };
 		5042C71119EA3256000CD0AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5042C70F19EA3256000CD0AE /* LaunchScreen.xib */; };
 		5042C71D19EA3256000CD0AE /* Swift_MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042C71C19EA3256000CD0AE /* Swift_MusicPlayerTests.swift */; };
+		5042C72719EA3E78000CD0AE /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042C72619EA3E78000CD0AE /* APIController.swift */; };
+		50EA118B19EA676C006251CF /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EA118A19EA676C006251CF /* Blank52.png */; };
+		50EA118D19EA8BF4006251CF /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EA118C19EA8BF4006251CF /* Album.swift */; };
+		50EA118F19EA90DD006251CF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EA118E19EA90DD006251CF /* DetailsViewController.swift */; };
+		50EA119119EAA31E006251CF /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EA119019EAA31E006251CF /* Track.swift */; };
+		50EA119319EAA8FA006251CF /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EA119219EAA8FA006251CF /* TrackCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +35,19 @@
 		5042C70119EA3256000CD0AE /* Swift-MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-MusicPlayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5042C70519EA3256000CD0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5042C70619EA3256000CD0AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5042C70819EA3256000CD0AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5042C70819EA3256000CD0AE /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		5042C70B19EA3256000CD0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5042C70D19EA3256000CD0AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5042C71019EA3256000CD0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5042C71619EA3256000CD0AE /* Swift-MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-MusicPlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5042C71B19EA3256000CD0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5042C71C19EA3256000CD0AE /* Swift_MusicPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_MusicPlayerTests.swift; sourceTree = "<group>"; };
+		5042C72619EA3E78000CD0AE /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIController.swift; path = ../APIController.swift; sourceTree = "<group>"; };
+		50EA118A19EA676C006251CF /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank52.png; sourceTree = "<group>"; };
+		50EA118C19EA8BF4006251CF /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		50EA118E19EA90DD006251CF /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		50EA119019EAA31E006251CF /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		50EA119219EAA8FA006251CF /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +89,18 @@
 		5042C70319EA3256000CD0AE /* Swift-MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				50EA118A19EA676C006251CF /* Blank52.png */,
+				5042C72619EA3E78000CD0AE /* APIController.swift */,
 				5042C70619EA3256000CD0AE /* AppDelegate.swift */,
-				5042C70819EA3256000CD0AE /* ViewController.swift */,
+				5042C70819EA3256000CD0AE /* SearchResultsViewController.swift */,
 				5042C70A19EA3256000CD0AE /* Main.storyboard */,
 				5042C70D19EA3256000CD0AE /* Images.xcassets */,
 				5042C70F19EA3256000CD0AE /* LaunchScreen.xib */,
 				5042C70419EA3256000CD0AE /* Supporting Files */,
+				50EA118C19EA8BF4006251CF /* Album.swift */,
+				50EA118E19EA90DD006251CF /* DetailsViewController.swift */,
+				50EA119019EAA31E006251CF /* Track.swift */,
+				50EA119219EAA8FA006251CF /* TrackCell.swift */,
 			);
 			path = "Swift-MusicPlayer";
 			sourceTree = "<group>";
@@ -193,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5042C70C19EA3256000CD0AE /* Main.storyboard in Resources */,
+				50EA118B19EA676C006251CF /* Blank52.png in Resources */,
 				5042C71119EA3256000CD0AE /* LaunchScreen.xib in Resources */,
 				5042C70E19EA3256000CD0AE /* Images.xcassets in Resources */,
 			);
@@ -212,8 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5042C70919EA3256000CD0AE /* ViewController.swift in Sources */,
+				50EA119319EAA8FA006251CF /* TrackCell.swift in Sources */,
+				5042C70919EA3256000CD0AE /* SearchResultsViewController.swift in Sources */,
 				5042C70719EA3256000CD0AE /* AppDelegate.swift in Sources */,
+				5042C72719EA3E78000CD0AE /* APIController.swift in Sources */,
+				50EA118D19EA8BF4006251CF /* Album.swift in Sources */,
+				50EA118F19EA90DD006251CF /* DetailsViewController.swift in Sources */,
+				50EA119119EAA31E006251CF /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +429,7 @@
 				5042C72219EA3256000CD0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5042C72319EA3256000CD0AE /* Build configuration list for PBXNativeTarget "Swift-MusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				5042C72519EA3256000CD0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
